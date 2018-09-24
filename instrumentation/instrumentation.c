@@ -11,10 +11,11 @@
 #include <sys/types.h>
 #include <sys/wait.h>
 #include <unistd.h>
+#include <signal.h>
 #endif
 
 #include "instrumentation.h"
-#include "utils.h"
+#include <utils.h>
 
 
 #ifndef _WIN32
